@@ -1,0 +1,50 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font: 28px Questrial;
+}
+
+header {
+  margin: 30px;
+  font-size: 14px;
+  color: purple;
+}
+
+main {
+  position: absolute;
+  width: 100%;
+  margin: 30px auto 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+main p {
+  width: 322px;
+  margin: 0 auto 18px;
+  text-align: right;
+  font-size: 40px;
+  padding-right: 50px;
+}
+
+main table {
+  margin: 0 auto;
+  color: black;
+  border-spacing: 10px;
+}
+
+main table td {
+  width: 64px;
+  height: 64px;
+  margin: 10px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+main table td:hover {
+  background-color: gray;
+  color: white;
+}
+
+main table td.empty:hover {
+  background-color: white;
+}
